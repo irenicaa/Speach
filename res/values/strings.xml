@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Читатель событий</string>
+    <string name="action_settings">Выбор приложений</string>
+    <string name="action_settings2">Белый/черный лист</string>
+    
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="info">Для работы приложения необходимо разрешить доступ к уведомлениям. Для этого перейдите в Настройки -> Звуки и уведомления -> Доступ к уведомлениям и поставьте галочку напротив этого приложения</string>
+    <string name="info2">Для более быстрого отключения приложения снимите галочку</string>
+    <string name="info3">Режим "Черный список". События, содержащие эти слова не будут озвучиваться. Вводите слова через ;</string>
+    <string name="info4">Режим "Белый список". В этом режиме будут озвучены, только события, содержащие эти слова</string>
+    
+</resources>
