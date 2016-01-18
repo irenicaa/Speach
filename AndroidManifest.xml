@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="my.speach.com"
      android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.1" >
 
     <uses-sdk
         android:minSdkVersion="18"
@@ -13,7 +13,7 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
+      
          >
         
      
@@ -31,20 +31,20 @@
 
      <activity
             android:name="my.speach.com.SettingsActivity"
-            android:label="@string/app_name"
+            android:label="@string/applist"
             android:screenOrientation="portrait">
           
     </activity>
     
       <activity
             android:name="my.speach.com.WhiteBlackList"
-            android:label="@string/app_name"
+            android:label="@string/whiteblack"
             android:screenOrientation="portrait">
           
     </activity>
         
         <service android:name="my.speach.com.NLService"
-                 android:label="@string/app_name"
+                 android:label="@string/whiteblack"
                  android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
             <intent-filter>
                 <action android:name="android.service.notification.NotificationListenerService" />
